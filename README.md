@@ -1,7 +1,7 @@
 Cached Product Properties
 ============================
 
-Provides a simple wrapper around Prodcuct Properties that allows them to be cached.
+Provides a simple wrapper around Product Properties that allows them to be cached.
 Properties are deleted from the cache on touching the product.
 
 Installation

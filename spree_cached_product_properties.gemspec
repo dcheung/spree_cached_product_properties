@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_cached_product_properties'
-  s.version     = '2.2.x'
+  s.version     = '2.2.1'
   s.summary     = 'Adds cached product property lookup to Spree'
   s.required_ruby_version = '>= 1.9.3'
 
