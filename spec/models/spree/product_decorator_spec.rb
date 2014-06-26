@@ -28,18 +28,4 @@ describe Spree::Product do
 
   end
 
-  describe "#clear_property_cache" do
-
-    it "will clear the product property cache on touching the product" do
-      product.should_receive(:clear_property_cache)
-      product.touch
-    end
-
-    it "will clear the each property on touch" do
-      Rails.cache.should_receive(:delete)
-        .with("product-#{product.id}-property-#{name}").at_least(:once)
-      product.touch
-    end
-
-  end
 end
