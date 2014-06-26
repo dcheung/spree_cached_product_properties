@@ -4,8 +4,6 @@ Cached Product Properties
 Provides a simple wrapper around Prodcuct Properties that allows them to be cached.
 Properties are deleted from the cache on touching the product.
 
-Introduction goes here.
-
 Installation
 ------------
 
@@ -23,13 +21,6 @@ First bundle your dependencies, then run `rake`. `rake` will default to building
 ```shell
 bundle
 bundle exec rake
-```
-
-When testing your applications integration with this extension you may use it's factories.
-Simply add this require statement to your spec_helper:
-
-```ruby
-require 'spree_cached_product_properties/factories'
 ```
 
 Copyright (c) 2014 Made by Many, released under the New BSD License
